@@ -7,8 +7,7 @@ const Container = styled.div`
   justify-content: center;
   background: #314982;
   width: 100%;
-  height: 100%;
-  position: absolute;
+  height: 100vh;
 `;
 
 const Title = styled.h1`
@@ -43,14 +42,12 @@ const Button = styled.button`
 
 const HomePage = () => {
   return (
-    <>
       <Container>
         <Title>Quem é esse</Title>
         <Subtitle>POKÉMON</Subtitle>
         <Subtitle>?</Subtitle>
         <Button>COMEÇAR</Button>
       </Container>
-    </>
   );
 };
 
