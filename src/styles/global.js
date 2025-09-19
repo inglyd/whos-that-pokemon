@@ -1,0 +1,48 @@
+import { createGlobalStyle } from "styled-components";
+
+export const GlobalStyle = createGlobalStyle`
+:root {
+  --background: linear-gradient(180deg, #3e5ca2 0%, #143685 100%);
+  --yellow: #f7cc46;
+  --red: #cd3529;
+  --blue-400: #314982;
+  --blue-800: #143685;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+main {
+  background-image: url("../images/blue-background.svg"), var(--background);
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+input {
+  font-family: "Potta One", cursive;
+}
+`;
